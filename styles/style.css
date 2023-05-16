@@ -1,0 +1,37 @@
+body {
+    background-color: #f2f59a;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #d98c09;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+ul {
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    padding: 8px;
+}
+
+a {
+    color: #d98c09;
+}
+
+footer {
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif
+}
