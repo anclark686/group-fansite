@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template: 1fr 5fr 1fr / 1fr 3fr 1fr
+    grid-template: 15% auto 5% / 1fr 3fr 1fr
 }
 
 header {
@@ -13,6 +13,7 @@ main {
     padding: 0px 15px 30px 20px;
     border: 2px solid white;
     margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 footer {
