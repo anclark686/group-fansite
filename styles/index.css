@@ -1,0 +1,43 @@
+header {
+    background-color: white;
+    grid-area: 1 / 1 / span 1 / span 3;
+    border: 2px solid #d98c09;
+    margin: 1em;
+}
+
+main {
+    grid-area: 2 / 1 / span 1 / span 3;
+    padding: 2em;
+    background-color: #f2f59a;
+    text-align: center;
+}
+
+footer {
+    grid-area: 3 / 1 / span 1 / span 3;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #d98c09;
+    max-height: 1em;
+}
+
+#main-banana {
+    width: 400px;
+    border: 2px solid #d98c09;
+    margin-bottom: 1em;
+}
+
+#body-header {
+    font-style: italic;
+}
+
+.container {
+    display: grid;
+    grid-template: 20% auto 15% / 25% auto 25%;
+}
+
+.main-body {
+    border: 2px solid white;
+    padding: 0px 15px 30px 20px;
+    margin: 5px auto;
+}
