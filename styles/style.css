@@ -1,7 +1,11 @@
+html {
+    min-height: 100vh;
+}
+
 body {
     background-color: #f2f59a;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    height: 100%;
+    min-height: 100vh;
 }
 
 h1 {
@@ -49,11 +53,9 @@ footer {
     padding: 10px;
     border: 2px solid #d98c09;
     max-height: 1em;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    bottom: 0px;
+    margin-top: auto;
 }
 
 .container {
-    min-height: 100%;
+    min-height: 100vh;
 }
