@@ -25,6 +25,7 @@ footer {
     width: 400px;
     border: 2px solid #d98c09;
     margin-bottom: 1em;
+    border-radius: 30px;
 }
 
 #body-header {
