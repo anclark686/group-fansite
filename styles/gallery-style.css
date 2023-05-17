@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-.img-container li img {
-    width: 100%;
-    height: 100%;
+.image {
+    height:250px;
+    width:350px;
     object-fit: cover;
-    border-radius: 100%;
-
+    padding: 25px;
+    border-radius: 20%;
 }
 
 .img-container {
@@ -21,9 +21,3 @@
     margin-top: 100px;
 }
 
-.image {
-    height:250px;
-    width:350px;
-    object-fit: cover;
-    border-radius: 10px;
-}
