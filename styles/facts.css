@@ -10,13 +10,6 @@ main {
     margin-top: 1em;
 }
 
-footer {
-    grid-area: 3 / 1 / span 1 / span 3;
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-}
-
 .list-adj {
     text-align: center;
     font-style: italic;
