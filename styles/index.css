@@ -4,6 +4,10 @@ main {
     text-align: center;
 }
 
+header, footer {
+    border: 3px darkred solid;
+}
+
 #main-banana {
     width: 400px;
     border: 2px solid #d98c09;
