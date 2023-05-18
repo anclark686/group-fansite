@@ -2,6 +2,10 @@ main {
     grid-area: 2 / 1 / span 1 / span 3;
 }
 
+header, footer {
+    border: 3px black dotted;
+}
+
 .container {
     display: grid;
     grid-template: 20% auto 10% / 25% auto 25%;
@@ -21,3 +25,4 @@ main {
     border-radius: 30px;
     border: 2px solid #d98c09;
 }
+
