@@ -1,28 +1,39 @@
 main {
-    grid-area: 2 / 1 / span 1 / span 3;
+  grid-area: 2 / 1 / span 1 / span 3;
 }
 
-header, footer {
-    border: 3px black dotted;
+header,
+footer {
+  border: 3px black dotted;
+}
+
+#body-header {
+  font-style: italic;
+  border: 2px solid white;
+  width: 25%;
+  margin: 10px auto;
+}
+
+.header-container {
+  width: 100%;
 }
 
 .container {
-    display: grid;
-    grid-template: 20% auto 10% / 25% auto 25%;
+  display: grid;
+  grid-template: 20% auto 10% / 25% auto 25%;
 }
 
 .img-container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
 }
 .image {
-    height:250px;
-    width:350px;
-    object-fit: cover;
-    margin: 20px;
-    border-radius: 30px;
-    border: 2px solid #d98c09;
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  margin: 20px;
+  border-radius: 30px;
+  border: 2px solid #d98c09;
 }
-

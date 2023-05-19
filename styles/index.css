@@ -1,31 +1,32 @@
 main {
-    grid-area: 2 / 1 / span 1 / span 3;
-    padding: 2em;
-    text-align: center;
+  grid-area: 2 / 1 / span 1 / span 3;
+  padding: 2em;
+  text-align: center;
 }
 
-header, footer {
-    border: 3px darkred solid;
+header,
+footer {
+  border: 3px darkred solid;
 }
 
 #main-banana {
-    width: 400px;
-    border: 2px solid #d98c09;
-    margin-bottom: 1em;
-    border-radius: 30px;
+  width: 400px;
+  border: 2px solid #d98c09;
+  margin-bottom: 1em;
+  border-radius: 30px;
 }
 
 #body-header {
-    font-style: italic;
+  font-style: italic;
 }
 
 .container {
-    display: grid;
-    grid-template: 20% auto 15% / 25% auto 25%;
+  display: grid;
+  grid-template: 20% auto 15% / 25% auto 25%;
 }
 
 .main-body {
-    border: 2px solid white;
-    padding: 0px 15px 30px 20px;
-    margin: 5px 100px;
+  border: 2px solid white;
+  padding: 0px 15px 30px 20px;
+  margin: 5px 100px;
 }

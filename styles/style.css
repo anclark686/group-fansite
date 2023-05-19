@@ -1,61 +1,62 @@
 html {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 body {
-    background-color: #f2f59a;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    min-height: 100vh;
+  background-color: #f2f59a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    color: #d98c09;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #d98c09;
+  text-align: center;
 }
 
 h2 {
-    font-size: 20px;
+  font-size: 20px;
+  font-style: oblique;
 }
 
 nav li {
-    display: inline;
+  display: inline;
 }
 
 ul {
-    text-align: center;
-    padding: 0px;
+  text-align: center;
+  padding: 0px;
 }
 
 li {
-    padding: 8px;
+  padding: 8px;
 }
 
 a {
-    color: #d98c09;
+  color: #d98c09;
 }
 
 header {
-    background-color: white;
-    grid-area: 1 / 1 / span 1 / span 3;
-    border: 2px solid #d98c09;
-    margin: 1em;
-    height: 7em;
+  background-color: white;
+  grid-area: 1 / 1 / span 1 / span 3;
+  border: 2px solid #d98c09;
+  margin: 1em;
+  height: 7em;
 }
 
 footer {
-    font-size: 12px;
-    font-family:'Times New Roman', Times, serif;
-    grid-area: 3 / 1 / span 1 / span 3;
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    border: 2px solid #d98c09;
-    max-height: 1em;
-    margin-top: auto;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  grid-area: 3 / 1 / span 1 / span 3;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #d98c09;
+  max-height: 1em;
+  margin-top: auto;
 }
 
 .container {
-    min-height: 100vh;
+  min-height: 100vh;
 }
